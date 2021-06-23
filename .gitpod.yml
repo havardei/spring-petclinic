@@ -1,3 +1,7 @@
+github:
+  prebuilds:
+    # enable for the default branch (defaults to true)
+    master: true
 
 tasks:
 - init: ./mvnw package -DskipTests
